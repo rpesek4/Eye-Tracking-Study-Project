@@ -15,6 +15,10 @@ Motivation:
 Understanding how programmers read examples of regular expressions could help in understanding the best way to format code that uses regular expressions. 
 
 Related Work 1:
+"Exploring regular expression comprehension"(Chapman et al., 2017)
+This study investigates common usages of various regular expression features and how they affect comprehension for example using a range([0-9]) was found to be more often understood than a default character class([\d]). The authors conducted an empirical study on 42 pairs of behaviorally equivalent but syntactically different regular expressions using 180 participants.
+
+C. Chapman, P. Wang and K. T. Stolee, "Exploring regular expression comprehension," 2017 32nd IEEE/ACM International Conference on Automated Software Engineering (ASE), Urbana, IL, USA, 2017, pp. 405-416, doi: 10.1109/ASE.2017.8115653.
 
 Related Work 2:
 
