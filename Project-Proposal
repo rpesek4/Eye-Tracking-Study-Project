@@ -21,14 +21,14 @@ This study investigates common usages of various regular expression features and
 C. Chapman, P. Wang and K. T. Stolee, "Exploring regular expression comprehension," 2017 32nd IEEE/ACM International Conference on Automated Software Engineering (ASE), Urbana, IL, USA, 2017, pp. 405-416, doi: 10.1109/ASE.2017.8115653.
 
 Related Work 2:
+This study examines how use of regular expressions can result in ddos vulnerability when they take too long to process and input. 
+It also examines various AI development tools like Chat GPT as they will often generate insecure code and are rapidly gaining popularity.
+The discussion talks about how these models will often generate code that works, but is not always completely secure.
+
 Mohammed Latif Siddiq, Jiahao Zhang, and Joanna Cecilia Da Silva Santos. 2024. 
 Understanding Regular Expression Denial of Service (ReDoS): Insights from LLM-Generated Regexes and Developer Forums. 
 In Proceedings of the 32nd IEEE/ACM International Conference on Program Comprehension (ICPC '24). 
 Association for Computing Machinery, New York, NY, USA, 190–201. https://doi.org/10.1145/3643916.3644424
-
-This study examines how use of regular expressions can result in ddos vulnerability when they take too long to process and input. 
-It also examines various AI development tools like Chat GPT as they will often generate insecure code and are rapidly gaining popularity.
-The discussion talks about how these models will often generate code that works, but is not always completely secure.
 
 Related Work 3:
 "How Programmers Read Regular Code: A Controlled Experiment Using Eye Tracking" (Jbara & Feitelson, 2017)​
@@ -63,6 +63,3 @@ Possible threats to validity:
 
 Impacts Envisioned:
 The main impact would be getting a eyetracking dataset that was created by regular expression tests. We also may be able to find a pattern in the data.
-
-Time Logs:
-
