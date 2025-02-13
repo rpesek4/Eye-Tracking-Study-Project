@@ -42,12 +42,18 @@ This paper investigates how developers use and perceive regular expressions (reg
 
 Louis G. Michael, James Donohue, James C. Davis, Dongyoon Lee, and Francisco Servant. 2020. Regexes are hard: decision-making, difficulties, and risks in programming regular expressions. In Proceedings of the 34th IEEE/ACM International Conference on Automated Software Engineering (ASE '19). IEEE Press, 415–426. https://doi.org/10.1109/ASE.2019.00047
 
-Research Question:
+Research Questions:
 What constructs make it hard for novices to understand regular expressions?
+Do certain formatting styles improve regex comprehension?
+
+Hypothesis:
+Participants will take longer to understand regexes with non-standard character classes compared to simpler alternatives.
 
 Methods:
 Showing programmers various code snippets that contain regular expressions and asking them to find an error or explain what it does.
 Doing a post test survey to get participant's opinions on the different code snippets and how they were reading them.
+Use programing students due accessability.
+
 
 Data to be collected:
 Task completion time
@@ -62,6 +68,8 @@ Possible threats to validity:
 Survey response bias, participants may provide answers they think the researcher wants rather than their true experience or may just simply not report their experience accurately.
 Selection bias, if participants are all from the same institution the results that come from them may not apply to the wider world.
 Task design issues, poorly made tasks or instructions may cause the results to be inaccurate.
+Prior familiarity with regular expressions may impact results.
+Device/calibration errors in eye-tracking data.
 
 Impacts Envisioned:
 The main impact would be getting a eyetracking dataset that was created by regular expression tests. We also may be able to find a pattern in the data.
