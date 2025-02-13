@@ -51,12 +51,18 @@ Showing programmers various code snippets that contain regular expressions and a
 Doing a post test survey to get participant's opinions on the different code snippets and how they were reading them.
 
 Data to be collected:
+Task completion time
+Fixations
+Eye path
+Survey data
 
 Analysis Envisioned:
+We want to examine the data for any potential patterns, like developer confusion. Hopefully allowing us to see what the best way to format regular expression in code is.
 
 Possible threats to validity:
 
 Impacts Envisioned:
+The main impact would be getting a eyetracking dataset that was created by regular expression tests. We also may be able to find a pattern in the data.
 
 Time Logs:
 
