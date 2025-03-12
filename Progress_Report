@@ -6,8 +6,12 @@ https://docs.google.com/forms/d/1Kqykp6WeHNHk4iqsbtM_xX41zfopbq648hMAytbYdsc/edi
 Difficulty Form:
 https://docs.google.com/forms/d/1KT5Tub0BHgOKc6AT3UJDYSw8D3I7pjZWJ8XQouy1J1c/edit
 
-
 Data Analyzing:
+We have a couple of different types of data to go through.
+We plan to use scripts similar to assignment 1 and 2 to proccess the raw eye tracking data into a more useable form.
+The time to complete data is very simple, as it is just timing the particapants for each task.
+For the survey data we plan to compare the partipant responses to our own answer key and mark it correct or incorrect.
+The other survey asks participants to rate the difficulty of the tasks, where we will take the average of the responses to rank difficulty.
 
 Workspace Setup:
 
