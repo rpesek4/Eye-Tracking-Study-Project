@@ -1,0 +1,8 @@
+Task1:
+The regular expression ^[a-zA-Z0-9]{8,12}$ matches strings that are 8 to 12 characters long and contain only alphanumeric characters (letters and digits). It ensures the string starts and ends with these characters, with no spaces or special characters allowed. In this code, it is used to validate passwords.
+
+Task2:
+
+Task3:
+
+Task4:
