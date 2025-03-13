@@ -5,5 +5,6 @@ Task2:
 The regex \b(\d{2})-(\d{2})-(\d{4})\b is used to find dates in the format dd-mm-yyyy. \d{2} matches two digits for day and month. \d{4} matches four digits for the year. \b ensures word boundaries to avoid partial matches (like 11-1-2022). The code extracts these dates, converts them into yyyy-mm-dd format, and replaces them in the text.
 
 Task3:
+The regex matches a typical email address that starts and ends with a word boundary (whitespace or punctuation), has an alphanumeric username (with allowed special characters), and contains a valid domain name with at least one period separating the domain and a valid TLD (like .com, .org, etc.).
 
 Task4:
