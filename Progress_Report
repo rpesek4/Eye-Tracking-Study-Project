@@ -14,8 +14,25 @@ For the survey data we plan to compare the partipant responses to our own answer
 The other survey asks participants to rate the difficulty of the tasks, where we will take the average of the responses to rank difficulty.
 
 Workspace Setup:
+The following files contain the regex comprehension tasks and necessary code:
+
+- **GitHub Repository:**
+- **Task Files:**
+  - Task1 - regex comprehension problem.
+  - Task2 - regex comprehension problem.
+  - Task3 - regex comprehension problem.
 
 Workflow:
+1. **Pre-Study:**
+   - Participants sign consent forms.
+   - Calibration of the eye-tracker.
+2. **Task Execution:**
+   - Participants complete regex tasks.
+   - Responses are recorded using a questionnaire.
+3. **Post-Task Survey:**
+   - Participants answer self-reported difficulty rankings.
+4. **Data Collection & Storage:**
+   - Eye-tracking data is saved to [Designated Storage Path].
 
 Roadmap:
 (3/3): Start
