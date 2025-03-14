@@ -7,4 +7,16 @@ The regex \b(\d{2})-(\d{2})-(\d{4})\b is used to find dates in the format dd-mm-
 Task3:
 The regex matches a typical email address that starts and ends with a word boundary (whitespace or punctuation), has an alphanumeric username (with allowed special characters), and contains a valid domain name with at least one period separating the domain and a valid TLD (like .com, .org, etc.).
 
+Raw emails found: ['support@company.co', 'info@website.co.uk']
+Cleaned emails: []
+
+Modified text (emails replaced with [EMAIL]):
+
+Here are some email addresses: john.doe@example.com, jane_doe123@subdomain.mail.org.
+You can also reach out to [EMAIL] or [EMAIL] for inquiries.
+Random data: 1a2b3c and invalid email like test@com without domain.
+
+
+Domain counts:
+
 Task4:
