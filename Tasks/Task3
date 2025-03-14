@@ -9,7 +9,6 @@ Random data: 1a2b3c and invalid email like test@com without domain.
 email_regex = r'(?<!\S)([a-zA-Z0-9._%+-]+(?:[.-][a-zA-Z0-9]+)*@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,})(?!\S)'
 
 def extract_emails(text):
-    # Searching for the email pattern in the text
     found_emails = re.findall(email_regex, text)
     return found_emails
 
