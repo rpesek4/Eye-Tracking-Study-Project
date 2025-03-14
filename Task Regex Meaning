@@ -13,6 +13,19 @@ Password: valid123 - Valid: True
 Task2:
 The regex \b(\d{2})-(\d{2})-(\d{4})\b is used to find dates in the format dd-mm-yyyy. \d{2} matches two digits for day and month. \d{4} matches four digits for the year. \b ensures word boundaries to avoid partial matches (like 11-1-2022). The code extracts these dates, converts them into yyyy-mm-dd format, and replaces them in the text.
 
+Original dates and converted dates:
+Original: 12-03-2021 -> Converted: 2021-03-12
+Original: 20-05-2022 -> Converted: 2022-05-20
+Original: 15-06-2022 -> Converted: 2022-06-15
+Original: 05-11-2022 -> Converted: 2022-11-05
+Original: 01-12-2022 -> Converted: 2022-12-01
+
+Modified text:
+
+The project started on 2021-03-12 and ended on 2022-05-20.
+There was a meeting on 2022-06-15, and another on 2022-11-05.
+Final reports were due by 2022-12-01.
+
 Task3:
 The regex matches a typical email address that starts and ends with a word boundary (whitespace or punctuation), has an alphanumeric username (with allowed special characters), and contains a valid domain name with at least one period separating the domain and a valid TLD (like .com, .org, etc.).
 
