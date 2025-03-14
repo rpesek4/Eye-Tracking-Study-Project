@@ -1,6 +1,15 @@
 Task1:
 The regular expression ^[a-zA-Z0-9]{8,12}$ matches strings that are 8 to 12 characters long and contain only alphanumeric characters (letters and digits). It ensures the string starts and ends with these characters, with no spaces or special characters allowed. In this code, it is used to validate passwords.
 
+Password: password123 - Valid: True
+Password: 12345 - Valid: False
+Password: validpassword - Valid: False
+Password: TooLongPassword123 - Valid: False
+Password: short - Valid: False
+Password: 12345678 - Valid: True
+Password: password123! - Valid: False
+Password: valid123 - Valid: True
+
 Task2:
 The regex \b(\d{2})-(\d{2})-(\d{4})\b is used to find dates in the format dd-mm-yyyy. \d{2} matches two digits for day and month. \d{4} matches four digits for the year. \b ensures word boundaries to avoid partial matches (like 11-1-2022). The code extracts these dates, converts them into yyyy-mm-dd format, and replaces them in the text.
 
