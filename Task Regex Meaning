@@ -29,16 +29,73 @@ Final reports were due by 2022-12-01.
 Task3:
 The regex matches a typical email address that starts and ends with a word boundary (whitespace or punctuation), has an alphanumeric username (with allowed special characters), and contains a valid domain name with at least one period separating the domain and a valid TLD (like .com, .org, etc.).
 
-Raw emails found: ['support@company.co', 'info@website.co.uk']
-Cleaned emails: []
+File content:
+ john.doe@example.com
+jane_doe123@subdomain.mail.org
+support@company.co
+info@website.co.uk
+admin@service.net
+test.user@domain.com
+contact@business.org
+test@com
+user@.invalid
+domain@missingdotcom
+@nouser.com
+plainaddress
+missing@domain,com
+wrong@format@domain.com
+Checking email: john.doe@example.com
+Checking email: jane_doe123@subdomain.mail.org
+Checking email: support@company.co
+Checking email: info@website.co.uk
+Checking email: admin@service.net
+Checking email: test.user@domain.com
+Checking email: contact@business.org
+Raw emails found: ['john.doe@example.com', 'jane_doe123@subdomain.mail.org', 'support@company.co', 'info@website.co.uk', 'admin@service.net', 'test.user@domain.com', 'contact@business.org']
+Cleaned emails: ['john.doe@example.com', 'jane_doe123@subdomain.mail.org', 'test.user@domain.com', 'contact@business.org']
 
 Modified text (emails replaced with [EMAIL]):
+[EMAIL]
+[EMAIL]
+[EMAIL]
+[EMAIL]
+[EMAIL]
+[EMAIL]
+[EMAIL]
+test@com
+user@.invalid
+domain@missingdotcom
+@nouser.com
+plainaddress
+missing@domain,com
+wrong@format@domain.com
+Extracted domain: example.com
+Extracted domain: subdomain.mail.org
+Extracted domain: domain.com
+Extracted domain: business.org
 
-Here are some email addresses: john.doe@example.com, jane_doe123@subdomain.mail.org.
-You can also reach out to [EMAIL] or [EMAIL] for inquiries.
-Random data: 1a2b3c and invalid email like test@com without domain.
+Domain counts:
+example.com: 1
+subdomain.mail.org: 1
+domain.com: 1
+business.org: 1
 
 
 Domain counts:
 
 Task4:
+The regex pattern detects valid credit card numbers from text. The code extracts card numbers, masks all but the last 4 digits, and counts occurrences by issuer.
+
+Extracted Card Numbers: ['4532756279624064', '5112345678901234', '378282246310005', '6011000990139424']
+
+Modified text (masked credit card numbers):
+Payment processed for order 12345 using card ************4064.
+Customer paid with ************1234 for the subscription.
+Fraud alert: ***********0005 was used suspiciously.
+Refund issued to ************9424.
+
+Card Issuer Counts:
+Visa: 1
+MasterCard: 1
+Amex: 1
+Discover: 1
