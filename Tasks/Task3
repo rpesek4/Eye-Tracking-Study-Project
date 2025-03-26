@@ -1,10 +1,9 @@
 import re
 
-text = """
-Here are some email addresses: john.doe@example.com, jane_doe123@subdomain.mail.org.
-You can also reach out to support@company.co or info@website.co.uk for inquiries.
-Random data: 1a2b3c and invalid email like test@com without domain.
-"""
+with open("email.txt", "r") as file:
+    text = file.read()
+
+print("File content:\n", text)
 
 email_regex = r'(?<!\S)([a-zA-Z0-9._%+-]+(?:[.-][a-zA-Z0-9]+)*@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,})(?!\S)'
 
@@ -15,6 +14,7 @@ def extract_emails(text):
 def clean_emails(email_list):
     cleaned = []
     for email in email_list:
+        print("Checking email:", email)
         if email.endswith(".com") or email.endswith(".org"):
             cleaned.append(email.lower())
     return cleaned
@@ -34,9 +34,9 @@ print(modified_text)
 domain_counts = {}
 for email in cleaned_emails:
     domain = email.split('@')[1]
+    print("Extracted domain:", domain)
     domain_counts[domain] = domain_counts.get(domain, 0) + 1
 
 print("\nDomain counts:")
 for domain, count in domain_counts.items():
     print(f"{domain}: {count}")
-
