@@ -1,0 +1,23 @@
+Regex (short for Regular Expressions) is a way to describe patterns in text. It’s used for searching, matching, or replacing text in strings. Some basic elements of Regex are literals and metacharacters. Literals search for the exact part so if your pattern is 'cat'
+only the string cat would match.
+Here is a table of common metacharacters and what they mean.
+
+Symbol	  Meaning	                Example	    Matches
+.	        Any character	          c.t	        "cat", "cut", "c9t"
+^	        Start of string	        ^Hello	    "Hello world" 
+$	        End of string	          world$	    "Hello world" 
+*	        0 or more times	        lo*	        "l", "lo", "loo"
++	        1 or more times	        lo+	        "lo", "loo", not "l"
+?	        0 or 1 time (optional)	colou?r	    "color", "colour"
+[]	      One of these chars	    [aeiou]	    Any vowel
+()	      Grouping	              (ha)+	      "ha", "haha", "hahaha"
+
+Finally some commmon shortcuts
+
+Shortcut	Matches
+\d	      Any digit (0–9)
+\w	      Any word character (a-z, A-Z, 0-9, _)
+\s	      Any whitespace (space, tab, etc.)
+\D	      Not a digit
+\W	      Not a word character
+\S	      Not a whitespace
