@@ -1,0 +1,10 @@
+1. 
+Open I-Trace Core
+2.
+Open Pycharm and connect to core.
+Open OBS (32 bit) and connect to core with script (has to be repeated after recording).
+Open Eye Tracker Manager and calibrate.
+3.
+Enter details in I-Trace Core and set it to use the eye tracker.
+4.
+Collect data.
