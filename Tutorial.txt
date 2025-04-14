@@ -21,3 +21,5 @@ Shortcut	Matches
 \D	      Not a digit
 \W	      Not a word character
 \S	      Not a whitespace
+
+You will look through four different python programs one at a time. For each program you will be tasked with a question relevant to the program, each question is unique to the python program.
