@@ -1,2 +1,2 @@
-Please list all of the domains that are outputted by the program:
+List what emails would be outputted by this code:
 
