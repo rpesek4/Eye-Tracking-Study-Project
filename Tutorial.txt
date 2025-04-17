@@ -22,4 +22,4 @@ Shortcut	Matches
 \W	      Not a word character
 \S	      Not a whitespace
 
-You will look through four different python programs one at a time. For each program you will be tasked with a question relevant to the program, each question is unique to the python program.
+You will be presented with 4 python code fragments that use regex expressions. For each task, you will be asked with reading and understanding the code to answers the question presented. Do not edit any code. You are free to look at any files contained within the task folder. The py file contains the main code, the answer.txt file will contain the question and is where you will type your answer, and there may be additional files that relate to the main py file. Take as much time a needed to answer and announce done when you have finished answering.
