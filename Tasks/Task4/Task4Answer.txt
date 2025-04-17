@@ -1,2 +1,2 @@
-Please list any card issuer counts that are outputted by the program:
+Explain what changes the program makes to the input.
 
