@@ -6,11 +6,9 @@ with open("transactions.txt", "r") as file:
 card_regex = r'\b(?:4[0-9]{12}(?:[0-9]{3})?|5[1-5][0-9]{14}|3[47][0-9]{13}|6(?:011|5[0-9]{2})[0-9]{12})\b'
 
 def extract_card_numbers(text):
-    """Finds all credit card numbers in text."""
     return re.findall(card_regex, text)
 
 def mask_card_numbers(text):
-    """Masks credit card numbers, showing only the last 4 digits."""
     return re.sub(card_regex, lambda m: '*' * (len(m.group()) - 4) + m.group()[-4:], text)
 
 found_cards = extract_card_numbers(text)
