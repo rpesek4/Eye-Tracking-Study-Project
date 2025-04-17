@@ -1,0 +1,8 @@
+Please list all of the domains that are outputted by the program:
+john.doe@example.com
+jane_doe123@subdomain.mail.org
+support@company.co
+info@website.co.uk
+admin@service.net
+test.user@domain.com
+contact@business.org
