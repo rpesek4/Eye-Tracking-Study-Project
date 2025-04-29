@@ -1,0 +1,5 @@
+Explain what changes the program makes to the input.
+4532756279624064 -> 453275627962****
+5112345678901234 -> 511234567890****
+6011000990139424 -> 601100099013****
+Last 4 gets converted to *

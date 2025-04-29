@@ -1,0 +1,3 @@
+Explain what changes the program makes to the input.
+it extracts the credit card numbers from the text, then replaces all but the last four digits of the credit card number with *
+Then, it classifies each card by company depending on the matching regex pattern and tallies the counts of each card for each company.

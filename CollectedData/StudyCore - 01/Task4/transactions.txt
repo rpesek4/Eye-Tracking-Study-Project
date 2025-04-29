@@ -1,0 +1,4 @@
+Payment processed for order 12345 using card 4532756279624064.
+Customer paid with 5112345678901234 for the subscription.
+Fraud alert: 378282246310005 was used suspiciously.
+Refund issued to 6011000990139424.

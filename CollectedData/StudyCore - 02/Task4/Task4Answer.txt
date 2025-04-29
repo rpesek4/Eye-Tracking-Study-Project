@@ -1,0 +1,2 @@
+Explain what changes the program makes to the input.
+extracts the credit card number, counts how many credit card has been extracted, counts the issuer, count how many cards belongs to each issuer, counts the number of total issuer.
