@@ -1,0 +1,9 @@
+List what emails would be outputted by this code:
+john.doe@example.com
+support@company.co
+admin@service.net
+contact@business.org
+@nouser.com
+plainaddress
+missing@domain,com
+wrong@format@domain.com

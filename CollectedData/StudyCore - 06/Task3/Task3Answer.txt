@@ -1,0 +1,6 @@
+List what emails would be outputted by this code:
+[EMAIL]@example.com
+[EMAIL]@subdomain.mail.org
+[EMAIL]@domain.com
+[EMAIL]@business.org
+[EMAIL]@domain.com

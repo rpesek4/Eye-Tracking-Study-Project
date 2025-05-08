@@ -1,0 +1,14 @@
+john.doe@example.com
+jane_doe123@subdomain.mail.org
+support@company.co
+info@website.co.uk
+admin@service.net
+test.user@domain.com
+contact@business.org
+test@com
+user@.invalid
+domain@missingdotcom
+@nouser.com
+plainaddress
+missing@domain,com
+wrong@format@domain.com

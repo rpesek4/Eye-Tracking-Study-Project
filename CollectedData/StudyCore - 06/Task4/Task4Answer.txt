@@ -1,0 +1,7 @@
+Explain what changes the program makes to the input.
+
+First the program pulls the transaction messages from the file, matches each line to find card numbers using regex.
+The program then modifies the first and last 4 of the card number to mask it. After this, the program attempts to gather
+the issuer of the card using regex that checks the first 4, 5, 3, 6 digits of the card number to assign them to be a Visa,
+Mastercard, Amex, or Discover card, respectively. Finally, the program outputs the count of each card assigned to their
+card issuer.

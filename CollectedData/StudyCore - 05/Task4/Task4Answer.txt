@@ -1,0 +1,3 @@
+Explain what changes the program makes to the input.
+It finds the card numbers and the subtracts it from the text,
+after that it will count the amount of cards per issuer and print that data
