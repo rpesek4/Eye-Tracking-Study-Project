@@ -1,0 +1,7 @@
+List what emails would be outputted by this code:
+
+john.doe@example.com
+support@company.co
+admin@service.net
+test.user@domain.com
+contact@business.org
